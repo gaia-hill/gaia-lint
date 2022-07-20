@@ -22,7 +22,7 @@
     "tslint",
     "typescript"
   ],
-  "author": "linezhou",
+  "author": "zxl",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.18.9",
