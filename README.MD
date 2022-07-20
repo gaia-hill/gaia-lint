@@ -5,7 +5,7 @@
 
 #### 安装
 
-`tnpm i gaia-lint --save-dev`
+`npm i gaia-lint --save-dev`
 
 #### 命令
 
