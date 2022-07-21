@@ -29,7 +29,7 @@ const getCustomConfig = () => {
     try {
       const glintConfig = require(configPath);
       if (glintConfig.config instanceof Function) {
-        glintConfig.config = glintConfig.lintConfig(defaultConfig.baseConfig);
+        glintConfig.config = glintConfig.config(defaultConfig.baseConfig);
       }
       if (glintConfig.ts) {
         defaultConfig.baseConfig.parser = '@typescript-eslint/parser';

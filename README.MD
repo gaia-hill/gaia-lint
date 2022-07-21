@@ -25,6 +25,7 @@ module.exports = {
   ts: false,                    // 是否是ts项目
   formatter: 'stylish',         // 结果输出的风格
   extensions: ['.js', '.ts'],   // 匹配的文件后缀
+  delay: 1500,                  // 格式化间隔时间
   config: {},                   // eslint配置，会合并到默认配置，如果存在eslintrc文件,则eslintrc也会合并到配置中，参考官方文档https://cn.eslint.org/docs/developer-guide/nodejs-api#cliengine
 };
 
